@@ -1,0 +1,52 @@
+* {
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  width: 25em;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  margin: 11em auto;
+  background-color: #b6851987;
+}
+.container h1,
+h2,
+h3,
+p {
+  font-weight: bold;
+  background-color: #d6b572;
+}
+.cards {
+  margin-bottom: 5px;
+}
+#S-game {
+  background-color: #02682e;
+  color: #d6b572;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 8em;
+  cursor: pointer;
+}
+#N-card {
+  background-color: #02682e;
+  color: #d6b572;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 8em;
+  cursor: pointer;
+}
+#per {
+  font-size: 20px;
+}
+#S-game:hover,
+#N-card:hover {
+  color: black;
+}

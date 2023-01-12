@@ -1,0 +1,63 @@
+* {
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 34em;
+  place-items: center;
+  border-radius: 10px;
+
+  padding: 0px 26px 0px 0px;
+}
+.container-btn {
+  place-items: center;
+  display: flex;
+  justify-content: center;
+}
+#txt-el {
+  width: 100%;
+  margin: 10px;
+  border-radius: 2px;
+  border-color: black;
+  padding: 10px 0px;
+  color: black;
+  text-indent: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+#saveI-btn,
+#saveT-btn {
+  background-color: rgb(28 157 28);
+}
+#saveI-btn,
+#saveT-btn {
+  font-weight: bold;
+  font-size: 14px;
+  width: 8em;
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+#delete-btn {
+  width: 8em;
+  padding: 8px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}
+
+#data,
+#a-data {
+  margin-left: -6px;
+  font-size: 15px;
+  background-color: transparent;
+  list-style-type: none;
+  color: green;
+}
